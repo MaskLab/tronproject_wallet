@@ -1,32 +1,23 @@
-Ethereum Wallet
-===============
-
-This sub-module is part of the [ethers project](https://github.com/ethers-io/ethers.js).
+# Tron Wallet
 
 It contains the class to manage a private key and signing for a standard
 externally-owned account.
 
-For more information, see the [documentation](https://docs.ethers.io/v5/api/signer/#Wallet).
+For more information, see the [documentation](https://docs.tron.io/v5/api/signer/#Wallet).
 
+## Importing
 
-Importing
----------
-
-Most users will prefer to use the [umbrella package](https://www.npmjs.com/package/ethers),
+Most users will prefer to use the [umbrella package](https://www.npmjs.com/package/tron),
 but for those with more specific needs, individual components can be imported.
 
 ```javascript
 const {
+  Wallet,
 
-    Wallet,
-
-    verifyMessage
-
-} = require("@ethersproject/wallet");
+  verifyMessage
+} = require('@tronproject/wallet');
 ```
 
-
-License
--------
+## License
 
 MIT License
